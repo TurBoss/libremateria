@@ -4,9 +4,6 @@ import wx
 import array
 import binascii
 
-import Dialog1
-import Dialog2
-
 materia = ['\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']*22
 mx = 0
 

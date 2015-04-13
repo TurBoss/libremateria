@@ -3,15 +3,13 @@
 
 import wx
 
-import Frame2
+import Frame1
 
-modules ={'Dialog1': [0, '', u'Dialog1.py'],
- 'Dialog2': [0, '', u'Dialog2.py'],
- 'Frame2': [1, 'Materia Table', u'Frame2.py']}
+modules ={'Frame1': [1, 'Materia Table', u'Frame1.py']}
 
 class BoaApp(wx.App):
     def OnInit(self):
-        self.main = Frame2.create(None)
+        self.main = Frame1.create(None)
         self.main.Show()
         self.SetTopWindow(self.main)
         return True
