@@ -239,9 +239,9 @@ class Frame2(wx.Frame):
     def _init_ctrls(self, prnt):
         # generated method, don't edit
         wx.Frame.__init__(self, id=wxID_FRAME2, name='', parent=prnt,
-              pos=wx.Point(545, 89), size=wx.Size(523, 594),
-              style=wx.DEFAULT_FRAME_STYLE, title='Materia Attr.')
-        self.SetClientSize(wx.Size(523, 594))
+              pos=wx.Point(981, 251), size=wx.Size(539, 605),
+              style=wx.DEFAULT_FRAME_STYLE, title='LibreMateria')
+        self.SetClientSize(wx.Size(523, 566))
 
         self.panel1 = wx.Panel(id=wxID_FRAME2PANEL1, name='panel1', parent=self,
               pos=wx.Point(136, 24), size=wx.Size(432, 544),
@@ -434,17 +434,17 @@ class Frame2(wx.Frame):
         self.textCtrl24.SetMinSize(wx.Size(40, 24))
 
         self.panelButtons = wx.Panel(id=wxID_FRAME2PANELBUTTONS,
-              name=u'panelButtons', parent=self, pos=wx.Point(8, 16),
-              size=wx.Size(112, 416), style=wx.TAB_TRAVERSAL)
+              name=u'panelButtons', parent=self, pos=wx.Point(0, 0),
+              size=wx.Size(136, 568), style=wx.TAB_TRAVERSAL)
 
         self.button2 = wx.Button(id=wxID_FRAME2BUTTON2, label=u'Save',
-              name='button2', parent=self.panelButtons, pos=wx.Point(0, 56),
+              name='button2', parent=self.panelButtons, pos=wx.Point(16, 112),
               size=wx.Size(104, 40), style=0)
         self.button2.Bind(wx.EVT_BUTTON, self.OnButton2Button,
               id=wxID_FRAME2BUTTON2)
 
         self.button1 = wx.Button(id=wxID_FRAME2BUTTON1, label=u'Load',
-              name='button1', parent=self.panelButtons, pos=wx.Point(0, 0),
+              name='button1', parent=self.panelButtons, pos=wx.Point(16, 64),
               size=wx.Size(104, 40), style=0)
         self.button1.Bind(wx.EVT_BUTTON, self.OnButton1Button,
               id=wxID_FRAME2BUTTON1)
@@ -1673,14 +1673,14 @@ class Frame2(wx.Frame):
         self.textCtrl176.SetBackgroundColour(wx.Colour(255, 0, 0))
 
         self.panel24 = wx.Panel(id=wxID_FRAME2PANEL24, name='panel24',
-              parent=self, pos=wx.Point(168, 0), size=wx.Size(376, 30),
+              parent=self, pos=wx.Point(136, 0), size=wx.Size(408, 30),
               style=wx.TAB_TRAVERSAL)
         self.panel24.SetMinSize(wx.Size(200, 30))
 
         self.staticText8 = wx.StaticText(id=wxID_FRAME2STATICTEXT8,
-              label=u'STR   VIT   DEF MDEF DEX  LCK  HP% MP%',
-              name='staticText8', parent=self.panel24, pos=wx.Point(32, 8),
-              size=wx.Size(385, 17), style=0)
+              label='STR    VIT    DEF   MDEF  DEX   LCK     HP%  MP%',
+              name='staticText8', parent=self.panel24, pos=wx.Point(72, 8),
+              size=wx.Size(310, 16), style=0)
         self.staticText8.SetFont(wx.Font(10, wx.SWISS, wx.NORMAL, wx.BOLD,
               False, u'Sans Serif'))
 
