@@ -172,67 +172,74 @@ def create(parent):
  wxID_FRAME2PANEL21, wxID_FRAME2PANEL22, wxID_FRAME2PANEL23, 
  wxID_FRAME2PANEL24, wxID_FRAME2PANEL3, wxID_FRAME2PANEL4, wxID_FRAME2PANEL5, 
  wxID_FRAME2PANEL6, wxID_FRAME2PANEL7, wxID_FRAME2PANEL8, wxID_FRAME2PANEL9, 
- wxID_FRAME2PANELBUTTONS, wxID_FRAME2STATICTEXT8, wxID_FRAME2TEXTCTRL1, 
- wxID_FRAME2TEXTCTRL10, wxID_FRAME2TEXTCTRL100, wxID_FRAME2TEXTCTRL101, 
- wxID_FRAME2TEXTCTRL102, wxID_FRAME2TEXTCTRL103, wxID_FRAME2TEXTCTRL104, 
- wxID_FRAME2TEXTCTRL105, wxID_FRAME2TEXTCTRL106, wxID_FRAME2TEXTCTRL107, 
- wxID_FRAME2TEXTCTRL108, wxID_FRAME2TEXTCTRL109, wxID_FRAME2TEXTCTRL11, 
- wxID_FRAME2TEXTCTRL110, wxID_FRAME2TEXTCTRL111, wxID_FRAME2TEXTCTRL112, 
- wxID_FRAME2TEXTCTRL113, wxID_FRAME2TEXTCTRL114, wxID_FRAME2TEXTCTRL115, 
- wxID_FRAME2TEXTCTRL116, wxID_FRAME2TEXTCTRL117, wxID_FRAME2TEXTCTRL118, 
- wxID_FRAME2TEXTCTRL119, wxID_FRAME2TEXTCTRL12, wxID_FRAME2TEXTCTRL120, 
- wxID_FRAME2TEXTCTRL121, wxID_FRAME2TEXTCTRL122, wxID_FRAME2TEXTCTRL123, 
- wxID_FRAME2TEXTCTRL124, wxID_FRAME2TEXTCTRL125, wxID_FRAME2TEXTCTRL126, 
- wxID_FRAME2TEXTCTRL127, wxID_FRAME2TEXTCTRL128, wxID_FRAME2TEXTCTRL129, 
- wxID_FRAME2TEXTCTRL13, wxID_FRAME2TEXTCTRL130, wxID_FRAME2TEXTCTRL131, 
- wxID_FRAME2TEXTCTRL132, wxID_FRAME2TEXTCTRL133, wxID_FRAME2TEXTCTRL134, 
- wxID_FRAME2TEXTCTRL135, wxID_FRAME2TEXTCTRL136, wxID_FRAME2TEXTCTRL137, 
- wxID_FRAME2TEXTCTRL138, wxID_FRAME2TEXTCTRL139, wxID_FRAME2TEXTCTRL14, 
- wxID_FRAME2TEXTCTRL140, wxID_FRAME2TEXTCTRL141, wxID_FRAME2TEXTCTRL142, 
- wxID_FRAME2TEXTCTRL143, wxID_FRAME2TEXTCTRL144, wxID_FRAME2TEXTCTRL145, 
- wxID_FRAME2TEXTCTRL146, wxID_FRAME2TEXTCTRL147, wxID_FRAME2TEXTCTRL148, 
- wxID_FRAME2TEXTCTRL149, wxID_FRAME2TEXTCTRL15, wxID_FRAME2TEXTCTRL150, 
- wxID_FRAME2TEXTCTRL151, wxID_FRAME2TEXTCTRL152, wxID_FRAME2TEXTCTRL153, 
- wxID_FRAME2TEXTCTRL154, wxID_FRAME2TEXTCTRL155, wxID_FRAME2TEXTCTRL156, 
- wxID_FRAME2TEXTCTRL157, wxID_FRAME2TEXTCTRL158, wxID_FRAME2TEXTCTRL159, 
- wxID_FRAME2TEXTCTRL16, wxID_FRAME2TEXTCTRL160, wxID_FRAME2TEXTCTRL161, 
- wxID_FRAME2TEXTCTRL162, wxID_FRAME2TEXTCTRL163, wxID_FRAME2TEXTCTRL164, 
- wxID_FRAME2TEXTCTRL165, wxID_FRAME2TEXTCTRL166, wxID_FRAME2TEXTCTRL167, 
- wxID_FRAME2TEXTCTRL168, wxID_FRAME2TEXTCTRL169, wxID_FRAME2TEXTCTRL17, 
- wxID_FRAME2TEXTCTRL170, wxID_FRAME2TEXTCTRL171, wxID_FRAME2TEXTCTRL172, 
- wxID_FRAME2TEXTCTRL173, wxID_FRAME2TEXTCTRL174, wxID_FRAME2TEXTCTRL175, 
- wxID_FRAME2TEXTCTRL176, wxID_FRAME2TEXTCTRL18, wxID_FRAME2TEXTCTRL19, 
- wxID_FRAME2TEXTCTRL2, wxID_FRAME2TEXTCTRL20, wxID_FRAME2TEXTCTRL21, 
- wxID_FRAME2TEXTCTRL22, wxID_FRAME2TEXTCTRL23, wxID_FRAME2TEXTCTRL24, 
- wxID_FRAME2TEXTCTRL25, wxID_FRAME2TEXTCTRL26, wxID_FRAME2TEXTCTRL27, 
- wxID_FRAME2TEXTCTRL28, wxID_FRAME2TEXTCTRL29, wxID_FRAME2TEXTCTRL3, 
- wxID_FRAME2TEXTCTRL30, wxID_FRAME2TEXTCTRL31, wxID_FRAME2TEXTCTRL32, 
- wxID_FRAME2TEXTCTRL33, wxID_FRAME2TEXTCTRL34, wxID_FRAME2TEXTCTRL35, 
- wxID_FRAME2TEXTCTRL36, wxID_FRAME2TEXTCTRL37, wxID_FRAME2TEXTCTRL38, 
- wxID_FRAME2TEXTCTRL39, wxID_FRAME2TEXTCTRL4, wxID_FRAME2TEXTCTRL40, 
- wxID_FRAME2TEXTCTRL41, wxID_FRAME2TEXTCTRL42, wxID_FRAME2TEXTCTRL43, 
- wxID_FRAME2TEXTCTRL44, wxID_FRAME2TEXTCTRL45, wxID_FRAME2TEXTCTRL46, 
- wxID_FRAME2TEXTCTRL47, wxID_FRAME2TEXTCTRL48, wxID_FRAME2TEXTCTRL49, 
- wxID_FRAME2TEXTCTRL5, wxID_FRAME2TEXTCTRL50, wxID_FRAME2TEXTCTRL51, 
- wxID_FRAME2TEXTCTRL52, wxID_FRAME2TEXTCTRL53, wxID_FRAME2TEXTCTRL54, 
- wxID_FRAME2TEXTCTRL55, wxID_FRAME2TEXTCTRL56, wxID_FRAME2TEXTCTRL57, 
- wxID_FRAME2TEXTCTRL58, wxID_FRAME2TEXTCTRL59, wxID_FRAME2TEXTCTRL6, 
- wxID_FRAME2TEXTCTRL60, wxID_FRAME2TEXTCTRL61, wxID_FRAME2TEXTCTRL62, 
- wxID_FRAME2TEXTCTRL63, wxID_FRAME2TEXTCTRL64, wxID_FRAME2TEXTCTRL65, 
- wxID_FRAME2TEXTCTRL66, wxID_FRAME2TEXTCTRL67, wxID_FRAME2TEXTCTRL68, 
- wxID_FRAME2TEXTCTRL69, wxID_FRAME2TEXTCTRL7, wxID_FRAME2TEXTCTRL70, 
- wxID_FRAME2TEXTCTRL71, wxID_FRAME2TEXTCTRL72, wxID_FRAME2TEXTCTRL73, 
- wxID_FRAME2TEXTCTRL74, wxID_FRAME2TEXTCTRL75, wxID_FRAME2TEXTCTRL76, 
- wxID_FRAME2TEXTCTRL77, wxID_FRAME2TEXTCTRL78, wxID_FRAME2TEXTCTRL79, 
- wxID_FRAME2TEXTCTRL8, wxID_FRAME2TEXTCTRL80, wxID_FRAME2TEXTCTRL81, 
- wxID_FRAME2TEXTCTRL82, wxID_FRAME2TEXTCTRL83, wxID_FRAME2TEXTCTRL84, 
- wxID_FRAME2TEXTCTRL85, wxID_FRAME2TEXTCTRL86, wxID_FRAME2TEXTCTRL87, 
- wxID_FRAME2TEXTCTRL88, wxID_FRAME2TEXTCTRL89, wxID_FRAME2TEXTCTRL9, 
- wxID_FRAME2TEXTCTRL90, wxID_FRAME2TEXTCTRL91, wxID_FRAME2TEXTCTRL92, 
- wxID_FRAME2TEXTCTRL93, wxID_FRAME2TEXTCTRL94, wxID_FRAME2TEXTCTRL95, 
- wxID_FRAME2TEXTCTRL96, wxID_FRAME2TEXTCTRL97, wxID_FRAME2TEXTCTRL98, 
- wxID_FRAME2TEXTCTRL99, 
-] = [wx.NewId() for _init_ctrls in range(205)]
+ wxID_FRAME2PANELBUTTONS, wxID_FRAME2STATICTEXT1, wxID_FRAME2STATICTEXT10, 
+ wxID_FRAME2STATICTEXT11, wxID_FRAME2STATICTEXT12, wxID_FRAME2STATICTEXT13, 
+ wxID_FRAME2STATICTEXT14, wxID_FRAME2STATICTEXT15, wxID_FRAME2STATICTEXT16, 
+ wxID_FRAME2STATICTEXT17, wxID_FRAME2STATICTEXT18, wxID_FRAME2STATICTEXT19, 
+ wxID_FRAME2STATICTEXT2, wxID_FRAME2STATICTEXT20, wxID_FRAME2STATICTEXT21, 
+ wxID_FRAME2STATICTEXT22, wxID_FRAME2STATICTEXT23, wxID_FRAME2STATICTEXT3, 
+ wxID_FRAME2STATICTEXT4, wxID_FRAME2STATICTEXT5, wxID_FRAME2STATICTEXT6, 
+ wxID_FRAME2STATICTEXT7, wxID_FRAME2STATICTEXT8, wxID_FRAME2STATICTEXT9, 
+ wxID_FRAME2TEXTCTRL1, wxID_FRAME2TEXTCTRL10, wxID_FRAME2TEXTCTRL100, 
+ wxID_FRAME2TEXTCTRL101, wxID_FRAME2TEXTCTRL102, wxID_FRAME2TEXTCTRL103, 
+ wxID_FRAME2TEXTCTRL104, wxID_FRAME2TEXTCTRL105, wxID_FRAME2TEXTCTRL106, 
+ wxID_FRAME2TEXTCTRL107, wxID_FRAME2TEXTCTRL108, wxID_FRAME2TEXTCTRL109, 
+ wxID_FRAME2TEXTCTRL11, wxID_FRAME2TEXTCTRL110, wxID_FRAME2TEXTCTRL111, 
+ wxID_FRAME2TEXTCTRL112, wxID_FRAME2TEXTCTRL113, wxID_FRAME2TEXTCTRL114, 
+ wxID_FRAME2TEXTCTRL115, wxID_FRAME2TEXTCTRL116, wxID_FRAME2TEXTCTRL117, 
+ wxID_FRAME2TEXTCTRL118, wxID_FRAME2TEXTCTRL119, wxID_FRAME2TEXTCTRL12, 
+ wxID_FRAME2TEXTCTRL120, wxID_FRAME2TEXTCTRL121, wxID_FRAME2TEXTCTRL122, 
+ wxID_FRAME2TEXTCTRL123, wxID_FRAME2TEXTCTRL124, wxID_FRAME2TEXTCTRL125, 
+ wxID_FRAME2TEXTCTRL126, wxID_FRAME2TEXTCTRL127, wxID_FRAME2TEXTCTRL128, 
+ wxID_FRAME2TEXTCTRL129, wxID_FRAME2TEXTCTRL13, wxID_FRAME2TEXTCTRL130, 
+ wxID_FRAME2TEXTCTRL131, wxID_FRAME2TEXTCTRL132, wxID_FRAME2TEXTCTRL133, 
+ wxID_FRAME2TEXTCTRL134, wxID_FRAME2TEXTCTRL135, wxID_FRAME2TEXTCTRL136, 
+ wxID_FRAME2TEXTCTRL137, wxID_FRAME2TEXTCTRL138, wxID_FRAME2TEXTCTRL139, 
+ wxID_FRAME2TEXTCTRL14, wxID_FRAME2TEXTCTRL140, wxID_FRAME2TEXTCTRL141, 
+ wxID_FRAME2TEXTCTRL142, wxID_FRAME2TEXTCTRL143, wxID_FRAME2TEXTCTRL144, 
+ wxID_FRAME2TEXTCTRL145, wxID_FRAME2TEXTCTRL146, wxID_FRAME2TEXTCTRL147, 
+ wxID_FRAME2TEXTCTRL148, wxID_FRAME2TEXTCTRL149, wxID_FRAME2TEXTCTRL15, 
+ wxID_FRAME2TEXTCTRL150, wxID_FRAME2TEXTCTRL151, wxID_FRAME2TEXTCTRL152, 
+ wxID_FRAME2TEXTCTRL153, wxID_FRAME2TEXTCTRL154, wxID_FRAME2TEXTCTRL155, 
+ wxID_FRAME2TEXTCTRL156, wxID_FRAME2TEXTCTRL157, wxID_FRAME2TEXTCTRL158, 
+ wxID_FRAME2TEXTCTRL159, wxID_FRAME2TEXTCTRL16, wxID_FRAME2TEXTCTRL160, 
+ wxID_FRAME2TEXTCTRL161, wxID_FRAME2TEXTCTRL162, wxID_FRAME2TEXTCTRL163, 
+ wxID_FRAME2TEXTCTRL164, wxID_FRAME2TEXTCTRL165, wxID_FRAME2TEXTCTRL166, 
+ wxID_FRAME2TEXTCTRL167, wxID_FRAME2TEXTCTRL168, wxID_FRAME2TEXTCTRL169, 
+ wxID_FRAME2TEXTCTRL17, wxID_FRAME2TEXTCTRL170, wxID_FRAME2TEXTCTRL171, 
+ wxID_FRAME2TEXTCTRL172, wxID_FRAME2TEXTCTRL173, wxID_FRAME2TEXTCTRL174, 
+ wxID_FRAME2TEXTCTRL175, wxID_FRAME2TEXTCTRL176, wxID_FRAME2TEXTCTRL18, 
+ wxID_FRAME2TEXTCTRL19, wxID_FRAME2TEXTCTRL2, wxID_FRAME2TEXTCTRL20, 
+ wxID_FRAME2TEXTCTRL21, wxID_FRAME2TEXTCTRL22, wxID_FRAME2TEXTCTRL23, 
+ wxID_FRAME2TEXTCTRL24, wxID_FRAME2TEXTCTRL25, wxID_FRAME2TEXTCTRL26, 
+ wxID_FRAME2TEXTCTRL27, wxID_FRAME2TEXTCTRL28, wxID_FRAME2TEXTCTRL29, 
+ wxID_FRAME2TEXTCTRL3, wxID_FRAME2TEXTCTRL30, wxID_FRAME2TEXTCTRL31, 
+ wxID_FRAME2TEXTCTRL32, wxID_FRAME2TEXTCTRL33, wxID_FRAME2TEXTCTRL34, 
+ wxID_FRAME2TEXTCTRL35, wxID_FRAME2TEXTCTRL36, wxID_FRAME2TEXTCTRL37, 
+ wxID_FRAME2TEXTCTRL38, wxID_FRAME2TEXTCTRL39, wxID_FRAME2TEXTCTRL4, 
+ wxID_FRAME2TEXTCTRL40, wxID_FRAME2TEXTCTRL41, wxID_FRAME2TEXTCTRL42, 
+ wxID_FRAME2TEXTCTRL43, wxID_FRAME2TEXTCTRL44, wxID_FRAME2TEXTCTRL45, 
+ wxID_FRAME2TEXTCTRL46, wxID_FRAME2TEXTCTRL47, wxID_FRAME2TEXTCTRL48, 
+ wxID_FRAME2TEXTCTRL49, wxID_FRAME2TEXTCTRL5, wxID_FRAME2TEXTCTRL50, 
+ wxID_FRAME2TEXTCTRL51, wxID_FRAME2TEXTCTRL52, wxID_FRAME2TEXTCTRL53, 
+ wxID_FRAME2TEXTCTRL54, wxID_FRAME2TEXTCTRL55, wxID_FRAME2TEXTCTRL56, 
+ wxID_FRAME2TEXTCTRL57, wxID_FRAME2TEXTCTRL58, wxID_FRAME2TEXTCTRL59, 
+ wxID_FRAME2TEXTCTRL6, wxID_FRAME2TEXTCTRL60, wxID_FRAME2TEXTCTRL61, 
+ wxID_FRAME2TEXTCTRL62, wxID_FRAME2TEXTCTRL63, wxID_FRAME2TEXTCTRL64, 
+ wxID_FRAME2TEXTCTRL65, wxID_FRAME2TEXTCTRL66, wxID_FRAME2TEXTCTRL67, 
+ wxID_FRAME2TEXTCTRL68, wxID_FRAME2TEXTCTRL69, wxID_FRAME2TEXTCTRL7, 
+ wxID_FRAME2TEXTCTRL70, wxID_FRAME2TEXTCTRL71, wxID_FRAME2TEXTCTRL72, 
+ wxID_FRAME2TEXTCTRL73, wxID_FRAME2TEXTCTRL74, wxID_FRAME2TEXTCTRL75, 
+ wxID_FRAME2TEXTCTRL76, wxID_FRAME2TEXTCTRL77, wxID_FRAME2TEXTCTRL78, 
+ wxID_FRAME2TEXTCTRL79, wxID_FRAME2TEXTCTRL8, wxID_FRAME2TEXTCTRL80, 
+ wxID_FRAME2TEXTCTRL81, wxID_FRAME2TEXTCTRL82, wxID_FRAME2TEXTCTRL83, 
+ wxID_FRAME2TEXTCTRL84, wxID_FRAME2TEXTCTRL85, wxID_FRAME2TEXTCTRL86, 
+ wxID_FRAME2TEXTCTRL87, wxID_FRAME2TEXTCTRL88, wxID_FRAME2TEXTCTRL89, 
+ wxID_FRAME2TEXTCTRL9, wxID_FRAME2TEXTCTRL90, wxID_FRAME2TEXTCTRL91, 
+ wxID_FRAME2TEXTCTRL92, wxID_FRAME2TEXTCTRL93, wxID_FRAME2TEXTCTRL94, 
+ wxID_FRAME2TEXTCTRL95, wxID_FRAME2TEXTCTRL96, wxID_FRAME2TEXTCTRL97, 
+ wxID_FRAME2TEXTCTRL98, wxID_FRAME2TEXTCTRL99, 
+] = [wx.NewId() for _init_ctrls in range(227)]
 
 class Frame2(wx.Frame):
 
@@ -257,7 +264,6 @@ class Frame2(wx.Frame):
               style=0, value=u'0')
         self.textCtrl1.SetMaxLength(4)
         self.textCtrl1.SetInsertionPoint(0)
-        self.textCtrl1.SetToolTipString(u'textCtrl1')
         self.textCtrl1.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl2 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL2, name='textCtrl2',
@@ -368,7 +374,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl16.SetMaxLength(4)
         self.textCtrl16.SetInsertionPoint(0)
-        self.textCtrl16.SetToolTipString(u'textCtrl1')
         self.textCtrl16.SetMinSize(wx.Size(40, 24))
 
         self.panel4 = wx.Panel(id=wxID_FRAME2PANEL4, name='panel4',
@@ -388,7 +393,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl18.SetMaxLength(4)
         self.textCtrl18.SetInsertionPoint(0)
-        self.textCtrl18.SetToolTipString(u'textCtrl1')
         self.textCtrl18.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl19 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL19,
@@ -501,7 +505,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl31.SetMaxLength(4)
         self.textCtrl31.SetInsertionPoint(0)
-        self.textCtrl31.SetToolTipString(u'textCtrl1')
         self.textCtrl31.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl32 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL32,
@@ -563,7 +566,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl39.SetMaxLength(4)
         self.textCtrl39.SetInsertionPoint(0)
-        self.textCtrl39.SetToolTipString(u'textCtrl1')
         self.textCtrl39.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl40 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL40,
@@ -625,7 +627,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl47.SetMaxLength(4)
         self.textCtrl47.SetInsertionPoint(0)
-        self.textCtrl47.SetToolTipString(u'textCtrl1')
         self.textCtrl47.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl48 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL48,
@@ -673,7 +674,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl53.SetMaxLength(4)
         self.textCtrl53.SetInsertionPoint(0)
-        self.textCtrl53.SetToolTipString(u'textCtrl1')
         self.textCtrl53.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl54 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL54,
@@ -707,7 +707,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl57.SetMaxLength(4)
         self.textCtrl57.SetInsertionPoint(0)
-        self.textCtrl57.SetToolTipString(u'textCtrl1')
         self.textCtrl57.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl58 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL58,
@@ -776,7 +775,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl66.SetMaxLength(4)
         self.textCtrl66.SetInsertionPoint(0)
-        self.textCtrl66.SetToolTipString(u'textCtrl1')
         self.textCtrl66.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl67 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL67,
@@ -866,7 +864,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl78.SetMaxLength(4)
         self.textCtrl78.SetInsertionPoint(0)
-        self.textCtrl78.SetToolTipString(u'textCtrl1')
         self.textCtrl78.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl79 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL79,
@@ -928,7 +925,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl86.SetMaxLength(4)
         self.textCtrl86.SetInsertionPoint(0)
-        self.textCtrl86.SetToolTipString(u'textCtrl1')
         self.textCtrl86.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl87 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL87,
@@ -962,7 +958,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl90.SetMaxLength(4)
         self.textCtrl90.SetInsertionPoint(0)
-        self.textCtrl90.SetToolTipString(u'textCtrl1')
         self.textCtrl90.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl91 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL91,
@@ -1052,7 +1047,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl102.SetMaxLength(4)
         self.textCtrl102.SetInsertionPoint(0)
-        self.textCtrl102.SetToolTipString(u'textCtrl1')
         self.textCtrl102.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl103 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL103,
@@ -1121,7 +1115,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl111.SetMaxLength(4)
         self.textCtrl111.SetInsertionPoint(0)
-        self.textCtrl111.SetToolTipString(u'textCtrl1')
         self.textCtrl111.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl112 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL112,
@@ -1176,7 +1169,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl118.SetMaxLength(4)
         self.textCtrl118.SetInsertionPoint(0)
-        self.textCtrl118.SetToolTipString(u'textCtrl1')
         self.textCtrl118.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl119 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL119,
@@ -1231,7 +1223,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl125.SetMaxLength(4)
         self.textCtrl125.SetInsertionPoint(0)
-        self.textCtrl125.SetToolTipString(u'textCtrl1')
         self.textCtrl125.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl126 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL126,
@@ -1307,7 +1298,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl135.SetMaxLength(4)
         self.textCtrl135.SetInsertionPoint(0)
-        self.textCtrl135.SetToolTipString(u'textCtrl1')
         self.textCtrl135.SetMinSize(wx.Size(40, 24))
 
         self.textCtrl136 = wx.TextCtrl(id=wxID_FRAME2TEXTCTRL136,
@@ -1376,7 +1366,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl143.SetMaxLength(4)
         self.textCtrl143.SetInsertionPoint(0)
-        self.textCtrl143.SetToolTipString(u'textCtrl1')
         self.textCtrl143.SetMinSize(wx.Size(40, 24))
         self.textCtrl143.SetBackgroundColour(wx.Colour(255, 217, 34))
 
@@ -1422,7 +1411,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl148.SetMaxLength(4)
         self.textCtrl148.SetInsertionPoint(0)
-        self.textCtrl148.SetToolTipString(u'textCtrl1')
         self.textCtrl148.SetMinSize(wx.Size(40, 24))
         self.textCtrl148.SetBackgroundColour(wx.Colour(255, 217, 34))
 
@@ -1493,7 +1481,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl156.SetMaxLength(4)
         self.textCtrl156.SetInsertionPoint(0)
-        self.textCtrl156.SetToolTipString(u'textCtrl1')
         self.textCtrl156.SetMinSize(wx.Size(40, 24))
         self.textCtrl156.SetBackgroundColour(wx.Colour(255, 217, 34))
 
@@ -1540,7 +1527,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl161.SetMaxLength(4)
         self.textCtrl161.SetInsertionPoint(0)
-        self.textCtrl161.SetToolTipString(u'textCtrl1')
         self.textCtrl161.SetMinSize(wx.Size(40, 24))
         self.textCtrl161.SetBackgroundColour(wx.Colour(255, 217, 34))
 
@@ -1619,7 +1605,6 @@ class Frame2(wx.Frame):
               size=wx.Size(40, 24), style=0, value=u'0')
         self.textCtrl170.SetMaxLength(4)
         self.textCtrl170.SetInsertionPoint(0)
-        self.textCtrl170.SetToolTipString(u'textCtrl1')
         self.textCtrl170.SetMinSize(wx.Size(40, 24))
         self.textCtrl170.SetBackgroundColour(wx.Colour(255, 0, 0))
 
@@ -1684,37 +1669,138 @@ class Frame2(wx.Frame):
         self.staticText8.SetFont(wx.Font(10, wx.SWISS, wx.NORMAL, wx.BOLD,
               False, u'Sans Serif'))
 
+        self.staticText1 = wx.StaticText(id=wxID_FRAME2STATICTEXT1, label='1',
+              name='staticText1', parent=self.panel2, pos=wx.Point(8, 8),
+              size=wx.Size(40, 16), style=0)
+
+        self.staticText2 = wx.StaticText(id=wxID_FRAME2STATICTEXT2, label='2',
+              name='staticText2', parent=self.panel3, pos=wx.Point(8, 8),
+              size=wx.Size(40, 16), style=0)
+
+        self.staticText3 = wx.StaticText(id=wxID_FRAME2STATICTEXT3, label='3',
+              name='staticText3', parent=self.panel4, pos=wx.Point(8, 8),
+              size=wx.Size(40, 21), style=0)
+
+        self.staticText4 = wx.StaticText(id=wxID_FRAME2STATICTEXT4, label='4',
+              name='staticText4', parent=self.panel5, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText5 = wx.StaticText(id=wxID_FRAME2STATICTEXT5, label='5',
+              name='staticText5', parent=self.panel6, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText6 = wx.StaticText(id=wxID_FRAME2STATICTEXT6, label='6',
+              name='staticText6', parent=self.panel7, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText7 = wx.StaticText(id=wxID_FRAME2STATICTEXT7, label='7',
+              name='staticText7', parent=self.panel8, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText9 = wx.StaticText(id=wxID_FRAME2STATICTEXT9, label='8',
+              name='staticText9', parent=self.panel9, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText10 = wx.StaticText(id=wxID_FRAME2STATICTEXT10, label='9',
+              name='staticText10', parent=self.panel10, pos=wx.Point(8, 8),
+              size=wx.Size(6, 13), style=0)
+
+        self.staticText11 = wx.StaticText(id=wxID_FRAME2STATICTEXT11,
+              label='10', name='staticText11', parent=self.panel11,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText12 = wx.StaticText(id=wxID_FRAME2STATICTEXT12,
+              label='11', name='staticText12', parent=self.panel12,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText13 = wx.StaticText(id=wxID_FRAME2STATICTEXT13,
+              label='12', name='staticText13', parent=self.panel13,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText14 = wx.StaticText(id=wxID_FRAME2STATICTEXT14,
+              label='13', name='staticText14', parent=self.panel14,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText15 = wx.StaticText(id=wxID_FRAME2STATICTEXT15,
+              label='14', name='staticText15', parent=self.panel15,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText16 = wx.StaticText(id=wxID_FRAME2STATICTEXT16,
+              label='15', name='staticText16', parent=self.panel16,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText17 = wx.StaticText(id=wxID_FRAME2STATICTEXT17,
+              label='16', name='staticText17', parent=self.panel17,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText18 = wx.StaticText(id=wxID_FRAME2STATICTEXT18,
+              label='17', name='staticText18', parent=self.panel18,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText19 = wx.StaticText(id=wxID_FRAME2STATICTEXT19,
+              label='18', name='staticText19', parent=self.panel19,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText20 = wx.StaticText(id=wxID_FRAME2STATICTEXT20,
+              label='19', name='staticText20', parent=self.panel20,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText21 = wx.StaticText(id=wxID_FRAME2STATICTEXT21,
+              label='20', name='staticText21', parent=self.panel21,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText22 = wx.StaticText(id=wxID_FRAME2STATICTEXT22,
+              label='21', name='staticText22', parent=self.panel22,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
+        self.staticText23 = wx.StaticText(id=wxID_FRAME2STATICTEXT23,
+              label='22', name='staticText23', parent=self.panel23,
+              pos=wx.Point(8, 8), size=wx.Size(12, 13), style=0)
+
     def __init__(self, parent):
         self._init_ctrls(parent)
 
     def OnButton1Button(self, event):
         event.Skip()
-        dlg = wx.FileDialog(self, 'Choose a PC FF7.EXE file', '.', '', '*.exe', wx.OPEN)
-        try:
-            if dlg.ShowModal() == wx.ID_OK:
-                filename = dlg.GetPath()
-                # Your code
+
+        with wx.FileDialog(self, "LOAD 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe",
+                           style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST) as fileDialog:
+
+            if fileDialog.ShowModal() == wx.ID_CANCEL:
+                return     # the user changed their mind
+
+            # Proceed loading the file chosen by the user
+            filename = fileDialog.GetPath()
+            try:
+                
                 materia = [' ']*22
                 materia = materiaLoader(filename,5232840)
                 global mx
                 mx = 0
                 update(self)
-        finally:
-            dlg.Destroy()
+            except IOError:
+                wx.LogError("Cannot open file '%s'." % newfile)   
+
 
     def OnButton2Button(self, event):
         event.Skip()
-        dlg = wx.FileDialog(self, 'Save to PC FF7.exe', '.', '', '*.exe', wx.SAVE)
-        try:
-            if dlg.ShowModal() == wx.ID_OK:
-                filename = dlg.GetPath()
-                # Your code
+        
+        
+        with wx.FileDialog(self, "SAVE 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe",
+                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as fileDialog:
+
+            if fileDialog.ShowModal() == wx.ID_CANCEL:
+                return     # the user changed their mind
+
+            # save the current contents in the file
+            filename = fileDialog.GetPath()
+            try:
                 materia=downdate(self)
                 #print(materia)
                 saver(filename,5232840)
+            except IOError:
+                wx.LogError("Cannot save current data in file '%s'." % filename)
                 
-        finally:
-            dlg.Destroy()
 
     def OnButton3Button(self, event):
         event.Skip()
