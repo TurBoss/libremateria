@@ -17,12 +17,12 @@ def materiaLoader(filename,fileoffset):
 
     materiamenufile = open(filename,'rb')
     materiamenufile.seek(fileoffset)
-    
+
     a = 0
     while a < 22:
         materia[a] = materiamenufile.read(16)
         a = a + 1
-    
+
     materiamenufile.close()
     #print(materia)
     return materia
@@ -33,20 +33,20 @@ def update(self):
     # to a particular hex character in the string.
 
     global materia
-    
+
     global mx
 
-    
+
     byte = 8
     materiaarray = ['\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']*22
-    
+
     j = 0
     while j < 22:
         materiastring = materia[j]
-            
+
         materiabytelist = [' ']*8
         materiabytelist2 = [' ']*8
-        
+
         i = 0
         while i < 8:
             try:
@@ -60,12 +60,12 @@ def update(self):
                 materiabytelist[i] = 0
                 materiabytelist2[i] = 0
             i = i+1
-        
+
         #print(materiabytelist)
         materiaarray[j] = materiabytelist2
         j += 1
     #print(materiaarray)
-    
+
     # Rellenar Tabla
     children = self.panel1.GetChildren()
     j = 0
@@ -77,9 +77,9 @@ def update(self):
         i = 0
         for child in children:
             widget = child.GetName()
-            #print widget
-            child.SetValue(str(attnumber[i]))
-            i += 1
+            if isinstance(child, wx._core.TextCtrl):
+                child.SetValue(str(attnumber[i]))
+                i += 1
 
 def downdate(self):
     # This module does the opposite of update. It polls the gui controls
@@ -88,16 +88,16 @@ def downdate(self):
     # before being pushed into limits[lx].
     global materia
     global mx
-    
+
     materiaData = ['\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00']*22
-    
+
     # Leer Tabla
     children = self.panel1.GetChildren()
     j = 0
     for child in children:
         widget = child.GetName()
         children = child.GetChildren()
-        
+
         attnumber = ['']*8
         materiaAtt = ['']*16
         materiaLol = ['']*16
@@ -105,44 +105,45 @@ def downdate(self):
         i = 0
         for child in children:
             widget = child.GetName()
-            attnumber[i] = int(child.GetValue())
-            #print(attnumber[i])
-            if (attnumber[i] >= 0)&(attnumber[i] <= 128):
-                materiaAtt[i*2] = attnumber[i]
-                materiaAtt[i*2+1] = 0
-            else:
-                
-                number = int(attnumber[i])
-                number += 256
-                
-                materiaAtt[i*2] = number
-                materiaAtt[i*2+1] = 255
-                
-            
-            i += 1
-        
+            if isinstance(child, wx._core.TextCtrl):
+                attnumber[i] = int(child.GetValue())
+                #print(attnumber[i])
+                if (attnumber[i] >= 0)&(attnumber[i] <= 128):
+                    materiaAtt[i*2] = attnumber[i]
+                    materiaAtt[i*2+1] = 0
+                else:
+
+                    number = int(attnumber[i])
+                    number += 256
+
+                    materiaAtt[i*2] = number
+                    materiaAtt[i*2+1] = 255
+
+
+                i += 1
+
         #print(materiaAtt)
         materiaData[j] = array.array('B', materiaAtt).tostring()
-        
+
         #materiaData[j] = materiaAtt
-        
+
         #materiaData[j] = ''.join(materiaAtt)
         #print("JOIN")
         #print(materiaData[j])
         #materiaData[j] = materiaData[j].split()
         #materiaData[i] = array.array('B', materiaAtt[i]).tostring()
         #materiaData[i*2] = array.array('B', materiaAtt[i*2]).tostring()
-            
+
         j += 1
-    
-    
+
+
     #print('############')
     #print(materiaData)
     #print('############')
-    
-    
+
+
     materia = materiaData
-        
+
     return materia
 
 def saver(filename,fileoffset):
@@ -152,7 +153,7 @@ def saver(filename,fileoffset):
     # Data is stored in limits[lx]. All we have to do is go to the file
     materiamenufile = open(filename,'r+b')
     materiamenufile.seek(fileoffset)
-    
+
     a = 0
     while a < 22:
         b = str(materia[a])
@@ -1763,31 +1764,26 @@ class Frame2(wx.Frame):
     def OnButton1Button(self, event):
         event.Skip()
 
-        with wx.FileDialog(self, "LOAD 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe",
-                           style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST) as fileDialog:
-
+        with wx.FileDialog(self, "LOAD 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe", style=wx.FD_OPEN | wx.FD_FILE_MUST_EXIST) as fileDialog:
             if fileDialog.ShowModal() == wx.ID_CANCEL:
                 return     # the user changed their mind
 
             # Proceed loading the file chosen by the user
             filename = fileDialog.GetPath()
             try:
-                
                 materia = [' ']*22
                 materia = materiaLoader(filename,5232840)
                 global mx
                 mx = 0
                 update(self)
             except IOError:
-                wx.LogError("Cannot open file '%s'." % newfile)   
+                wx.LogError("Cannot open file '%s'." % filename)
 
 
     def OnButton2Button(self, event):
         event.Skip()
-        
-        
-        with wx.FileDialog(self, "SAVE 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe",
-                       style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as fileDialog:
+
+        with wx.FileDialog(self, "SAVE 1998 PC FF7.EXE", wildcard="EXE (*.exe)|*.exe", style=wx.FD_SAVE | wx.FD_OVERWRITE_PROMPT) as fileDialog:
 
             if fileDialog.ShowModal() == wx.ID_CANCEL:
                 return     # the user changed their mind
